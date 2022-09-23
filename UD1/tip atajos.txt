@@ -1,0 +1,8 @@
+ul*lielemento$*8
+p.texto*10>Lorem100
+
+
+
+table>tr*5>td*10
+
+  button:submit#send{Enviar}
