@@ -1,0 +1,49 @@
+
+*{
+box-sizing:border-box;
+}
+
+
+
+
+
+.primero{
+color: rgb(224, 32, 32);
+}
+
+
+
+.segundo{
+    color:peru;
+}
+
+.tercero{
+    color: pink;
+}
+
+#mitad{
+    color:pink;
+    border: 1px solid pink;
+    width:400px;
+    padding: auto;
+    margin:1em;
+}
+
+#contenedor{
+   display: flex;
+}
+
+
+#imagen{
+    width:200px;
+    height:800px;
+}
+
+
+.baloncesto{
+    background-image:url("img/descarga.png");
+    width:500px;
+    height:500px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
