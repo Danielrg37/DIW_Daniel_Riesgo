@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../ejercicio2/css/estilos.css">
+</head>
+<body>
+   
+
+<form method="post" id="formulario" action="formulario.php">
+    <h2>Formulario de alta</h2>
+<div class="lineaformulario">
+    <label for="nombre">Nombre:</label>
+<div class=".contenido">
+    <input list="nombre" autofocus type="text" name="nombre" autocomplete="off" required><span class="asterisco">*</span>
+
+    <datalist id="nombre">
+
+        <option value="Antonio">Antonio</option>
+        <option value="Manuel">Manuel</option>
+        <option value="José">José</option>
+        <option value="Francisco">Francisco</option>
+        <option value="David">David</option>
+        <option value="Maria Carmen">Maria Carmen</option>
+        <option value="Maria">Maria</option>
+        <option value="Carmen">Carmen</option>
+        <option value="Ana Maria">Ana Maria</option>
+        <option value="Josefa">Josefa</option>
+        </datalist>
+</div>
+</div>
+<br>
+<div class="lineaformulario">
+    <label for="apellidos">Apellidos:</label>
+    <div class=".contenido">
+    <input id="apellidos" type="text" name="apellidos" autocomplete="off" required><span class="asterisco">*</span><br><br>   
+</div>
+</div>
+
+<div class="lineaformulario">
+    <label for="fechaNacimiento">Fecha de nacimiento:</label>
+    <div class=".contenido">
+    <input id="fechaNacimiento" type="date" name="fechaNacimiento" autocomplete="off"><br><br>   
+</div>
+</div>    
+
+<div class="lineaformulario">
+    <label for="DNI">DNI:</label>
+    <div class=".contenido">
+    <input id="DNI" type="text" name="DNI" autocomplete="off" pattern="/^[a-z]{3}[0-9]{6}[a-z]?$/i"><br><br>   
+</div>
+</div>   
+
+
+<div class="lineaformulario">
+    <label for="email">Email:</label>
+    <div class=".contenido">
+    <input id="email" type="email" name="email" autocomplete="off" required><span class="asterisco">*</span><br><br>   
+</div>
+</div>   
+
+<div class="lineaformulario">
+    <label for="contraseña">Contraseña:</label>
+    <div class=".contenido">
+    <input id="contraseña" type="password" name="contraseña" autocomplete="off"><span class="asterisco" required>*</span><br><br>   
+</div>
+</div>   
+
+<div class="lineaformulario">
+    <label for="contraseña_repeticion">Contraseña (Repetición):</label>
+    <div class=".contenido">
+    <input id="contraseña_repeticion" type="password" name="contraseña_repeticion" autocomplete="off" required><span class="asterisco">*</span><br><br>   
+</div>
+</div>    
+
+
+<div class="lineaformulario">
+    <label for="pagina_web">Página Web:</label>
+    <div class=".contenido">
+    <input id="pagina_web" type="url" name="pagina_web" autocomplete="off"><br><br>   
+</div>
+</div>   
+
+<div class="lineaformulario">
+    <label for="edad">Edad:</label>
+    <div class=".contenido">
+    <input id="edad" type="number" name="edad" step="5" autocomplete="off" min="10" max="100" ><br><br>   
+</div>
+</div>   
+
+<div class="lineaformulario">
+<label for="edad">Género:</label><br>
+<div class=".contenido">
+<input id="edad" type="radio" name="genero" value="hombre">Masculino
+<input id="edad"type="radio" name="genero" value="mujer">Femenino
+<input id="edad"type="radio" name="genero" value="otro">No binario<br><br>
+</div>
+</div>   
+
+
+<label for="producto">Producto favorito</label>
+<select name="producto" id="producto">
+  <option value="discoduro">Disco duro</option>
+  <option value="procesador">Procesador</option>
+  <option value="tarjetagrafica">Tarjeta gráfica</option>
+  <option value="monitor">Monitor</option>
+  <option value="ratón">Ratón</option>
+  
+</select>
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="linea-formulario">
+<div class=".contenido">
+<label><input type="checkbox" id="cbox1" value="boletin">Suscribirme al boletín de novedades</label><br><br>
+<label><input type="checkbox" id="cbox2" value="ofertas"> Informarme sobre ofertas</label><br><br>
+</div>
+</div>   
+
+<div class="lineaformulario">
+    <label for="edad">Comentario:</label><br>
+    <div class=".contenido">
+<textarea name="textarea" rows="10" cols="30">Introduce tu...
+</textarea><br>
+</div>
+</div>
+
+<input type="submit" value="Enviar datos"> 
+
+
+
+</body>
+</html>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
