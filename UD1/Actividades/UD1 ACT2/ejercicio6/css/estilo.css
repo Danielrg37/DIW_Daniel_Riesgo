@@ -16,9 +16,10 @@
 background-image: url(../img/ralph.png);
 background-repeat: no-repeat;
 background-size: contain;
-width:200px;
+width:170px;
 height:250px;
-transform: rotate(8deg);
+transform: rotate(14deg);
+justify-content: center;
 }
 
 
