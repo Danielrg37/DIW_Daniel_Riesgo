@@ -1,0 +1,52 @@
+#contenedor{
+    display:flex;
+    justify-content: space-around;
+    padding: 1.2em;
+    background-image: url(../img/sobre.jpg);
+    width:50%;
+}
+
+
+.simpsons{
+    border:10px solid transparent;
+    border-image: url(../img/sello.png) 33% round; 
+}
+
+#ralph{
+background-image: url(../img/ralph.png);
+background-repeat: no-repeat;
+background-size: contain;
+width:200px;
+height:250px;
+transform: rotate(8deg);
+}
+
+
+#milhouse{
+background-image: url(../img/milhouse.png);
+background-repeat: no-repeat;
+background-size: contain;
+width:150px;
+height:210px;
+background-position: bottom;
+}
+
+
+#flanders{
+background-image: url(../img/flanders.png);
+background-repeat: no-repeat;
+background-size: contain;
+width:200px;
+height:250px;
+transform: rotate(-12deg);
+
+}
+
+#nelson{
+background-image: url(../img/nelson.png);
+background-repeat: no-repeat;
+background-size: contain;
+width:200px;
+height:250px;
+transform: rotate(10deg);
+}

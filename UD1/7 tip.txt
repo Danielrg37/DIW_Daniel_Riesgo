@@ -1,0 +1,9 @@
+background image: ; ; ; ;
+
+la ultima la del fondo
+de adelante hacia atrás
+
+
+background-size casita, paisano, tienda ,fondo
+
+background-position casita, paisano, tienda, fondo (0,0 en fondo)

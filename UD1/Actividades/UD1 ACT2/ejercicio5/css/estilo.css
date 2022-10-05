@@ -1,0 +1,19 @@
+#contenedor{
+    display:flex;
+    justify-content: space-between;
+    width: 25%;
+    padding: 1.2em;
+}
+
+
+#perrito{
+    background-image: url(../img/perrito.jpg);
+    height:300px;
+    width:300px;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+
+    border:40px solid transparent;
+    border-image: url(../img/marco.png) 33% round;
+}

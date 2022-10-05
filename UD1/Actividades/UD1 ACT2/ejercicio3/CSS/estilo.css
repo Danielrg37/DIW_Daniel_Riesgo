@@ -1,0 +1,50 @@
+#contenedor{
+
+    display: flex;
+    background-color: rgb(216, 211, 211);
+    border: 5px solid black;
+    justify-content: space-between;
+    padding: 1.2em;
+    width: 25%;
+    
+    }
+    
+    .iconos{
+    background-image: url(../img/sprite.png);
+    height: 105px;
+    width: 105px;
+    }
+    
+    #facebook{
+    background-position: 0px 0px;
+    }
+    
+    #twitter{
+    background-position: -104px 0px;
+    }
+    
+    #youtube{
+    background-position: -208px 0px;
+    }
+    
+    #instagram{
+    background-position: -315px 0px;
+    }
+    
+
+    #facebook:hover{
+    background-position: 0px -106px;
+    }
+    
+    #twitter:hover{
+    background-position: -105px -106px;
+    }
+    
+    
+    #youtube:hover{
+    background-position: -210px -106px;
+    }
+    
+    #instagram:hover{
+    background-position: -315px -106px;
+    }

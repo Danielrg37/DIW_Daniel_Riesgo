@@ -1,0 +1,46 @@
+#contenedor{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    width: 25%;
+
+    }
+
+    .imagenes{
+    height: 100px;
+    width: 100px;
+    border: 8px solid black;
+
+    }
+    #uno{
+        background-image: url(../img/cairo.png);
+        border-top-left-radius: 60px;
+        border-top-right-radius: 60px;
+        background-size: contain;
+    }
+
+    #dos{
+        background-image: url(../img/pascua.png);
+        height:190px;
+        width:75px;
+        background-size:75px 200px;
+        background-repeat: no-repeat;
+
+    }
+
+    #tres{
+        background-image: url(../img/italia.png);
+        border-radius: 80px;
+        background-size: contain ;
+        width: 80px;
+        height: 80px;
+
+    }
+
+    #cuatro{
+        background-image: url(../img/rio.png);
+        background-size: 40px;
+        background-repeat: no-repeat;
+        background-color: greenyellow;
+    }

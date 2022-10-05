@@ -1,0 +1,50 @@
+#contenedor{
+    display:flex;
+    background-color:gray;
+    border:5px solid black;
+    justify-content: space-between;
+    width: 25%;
+    padding: 1.2em;
+}
+
+.iconos{
+background-size: contain;
+width:70px;
+height: 70px;
+}
+
+#facebook{
+background-image: url(../img/facebook_color.png);
+}
+
+#twitter{
+background-image: url(../img/twitter_color.png);    
+}
+
+#youtube{
+background-image: url(../img/you_tube_color.png);  
+}
+
+#flickr{
+background-image: url(../img/flickr_color.png); 
+}
+
+
+
+
+#facebook:hover{
+    background-image: url(../img/facebook.png);
+}
+    
+#twitter:hover{
+    background-image: url(../img/twitter.png); 
+}
+    
+    
+#youtube:hover{
+    background-image: url(../img/you_tube.png);   
+}
+    
+#flickr:hover{
+    background-image: url(../img/flickr.png);   
+}
