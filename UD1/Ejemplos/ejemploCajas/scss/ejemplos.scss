@@ -1,0 +1,30 @@
+@use "sass:color";
+
+
+
+$altura:400px;
+$anchura:200px;
+
+$colorCaja: blue;
+
+
+
+
+
+
+#contenedor{
+  
+
+    .boton{
+        height: $altura;
+        width: $anchura;
+    }
+
+    @for $i from 1 to 5{
+        #caja#{$i}{
+            background-color:adjust-color($colorCaja, $green:20*$i);
+        }
+
+    }
+    
+}

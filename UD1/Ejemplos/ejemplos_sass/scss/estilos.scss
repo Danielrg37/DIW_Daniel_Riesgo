@@ -1,6 +1,50 @@
-$color: blue;
+@use "sass:color";
 
+
+
+
+$color: blue;
+$tam-base:1em;
+$tipografia:"Arial";
+$colorParrafo: peru;
+$bordes:(1px solid $color);
 
 *{
     color:$color;
+    padding:$tam-base;
+    font-family: $tipografia;
+}
+
+main{
+    padding:$tam-base;
+    div{
+        border:$bordes;
+        p{
+            color:$colorParrafo;
+        }
+    }
+}
+
+
+nav{
+    #lista1{
+        color:$colorParrafo;
+    }
+
+    #lista2{
+        color:adjust-color($colorParrafo, $green:100);
+    }
+
+    #lista3{
+
+    }
+
+    #lista4{
+
+    }
+
+    #lista5{
+
+    }
+
 }

@@ -1,0 +1,37 @@
+@use "sass:color";
+
+
+
+$anchura:400px;
+$altura:100px;
+
+$redes:("facebook", "twitter","you_tube", "flickr");
+$color_fondo: gray;
+
+
+#contenedor{
+    background-color:$color_fondo;
+    border:5px solid black;
+    display: flex;
+
+
+    .iconos{
+        height: $altura;
+        width: $anchura;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+
+   
+@each $red in $redes{
+    ##{$red}{
+        background-image: url("img/"+$red+ ".png");
+    &:hover{
+    background-image: url("img/"+$red+ "_color.png");
+}
+}
+}
+
+}
+

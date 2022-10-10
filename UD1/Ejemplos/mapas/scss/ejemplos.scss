@@ -1,0 +1,28 @@
+@use "sass:color";
+
+
+
+$anchura:400px;
+$altura:100px;
+
+$botones: ("ERROR":  #FF0000, "EXITO": #00FF00  ,"INFO": #0000FF);
+$color_fondo: gray;
+
+
+#contenedor{
+    background-color:$color_fondo;
+    border:5px solid black;
+    display: flex;
+
+
+
+
+    @each $clave, $valor in $botones{
+        
+
+    }
+   
+
+
+}
+

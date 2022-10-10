@@ -1,0 +1,41 @@
+@use "sass:color";
+@use "sass:list";
+
+
+$altura:400px;
+$anchura:200px;
+
+$colorCaja: (red, blue, green, black);
+
+
+
+
+
+
+ #contenedor{
+  
+
+   .boton{
+        height: $altura;
+        width: $anchura;
+    }
+}
+
+//     @for $i from 1 through list.length($colorCaja){
+//         #caja#{$i}{
+//         background-color: list.nth($colorCaja,$i);
+
+//     }
+    
+// }
+// }
+
+
+
+
+
+@each $color in $colorCaja{
+    #caja#{list.index($colorCaja, $color)}{
+        background-color: $color;
+    }
+}
