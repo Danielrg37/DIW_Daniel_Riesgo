@@ -5,7 +5,10 @@
 $anchura:400px;
 $altura:100px;
 
-$botones: ("ERROR":  #FF0000, "EXITO": #00FF00  ,"INFO": #0000FF);
+$botones: 
+('ERROR':  #FF0000, 
+'EXITO': #00FF00,
+'INFO': #0000FF);
 $color_fondo: gray;
 
 
@@ -16,9 +19,11 @@ $color_fondo: gray;
 
 
 
-
     @each $clave, $valor in $botones{
-        
+    .boton-#{clave} {
+        color:white;
+        background-color: $valor;
+    }
 
     }
    

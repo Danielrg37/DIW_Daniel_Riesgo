@@ -1,0 +1,61 @@
+@import "colores.scss";
+
+#contenedor{
+background-color: $rojo-claro;
+padding: 1em;
+
+p,div,span,a{
+    display:inline-block;
+    height: 200px;
+    width:100px;
+    float: right;
+}
+
+    h1{
+        background-color: $rojo-oscuro;
+        color:white;
+        padding: 1em;
+      
+    }
+       
+div{
+    color: $verde-oscuro;
+    background-color: $verde-claro;
+    border: 1px solid $verde-oscuro;
+    height: 200px;
+}
+
+p{
+    color: $verde-oscuro;
+    background-color: $verde-claro;
+    border: 1px solid $verde-oscuro;
+    padding: 0.5em;
+    height: 200px;
+}
+
+
+a{
+    color: $azul-oscuro;
+    background-color: $azul-claro;
+    border: 1px solid $azul-oscuro;
+    padding: 1em;
+
+
+    
+}
+
+
+span{
+    color: $azul-oscuro;
+    background-color: $azul-claro;
+    border: 1px solid $azul-oscuro; 
+    padding: 1.1em;
+}
+
+.limpia{
+    clear: both;
+}
+
+
+}
+

@@ -1,0 +1,43 @@
+#contenedor {
+  background-color: rgba(255, 0, 0, 0.1333333333);
+  padding: 1em;
+}
+#contenedor p, #contenedor div, #contenedor span, #contenedor a {
+  display: inline-block;
+  height: 200px;
+  width: 100px;
+  float: right;
+}
+#contenedor h1 {
+  background-color: rgba(255, 0, 0, 0.4666666667);
+  color: white;
+  padding: 1em;
+}
+#contenedor div {
+  color: rgba(0, 255, 0, 0.4666666667);
+  background-color: rgba(0, 255, 0, 0.1333333333);
+  border: 1px solid rgba(0, 255, 0, 0.4666666667);
+  height: 200px;
+}
+#contenedor p {
+  color: rgba(0, 255, 0, 0.4666666667);
+  background-color: rgba(0, 255, 0, 0.1333333333);
+  border: 1px solid rgba(0, 255, 0, 0.4666666667);
+  padding: 0.5em;
+  height: 200px;
+}
+#contenedor a {
+  color: rgba(0, 0, 255, 0.4666666667);
+  background-color: rgba(0, 0, 255, 0.1333333333);
+  border: 1px solid rgba(0, 0, 255, 0.4666666667);
+  padding: 1em;
+}
+#contenedor span {
+  color: rgba(0, 0, 255, 0.4666666667);
+  background-color: rgba(0, 0, 255, 0.1333333333);
+  border: 1px solid rgba(0, 0, 255, 0.4666666667);
+  padding: 1.1em;
+}
+#contenedor .limpia {
+  clear: both;
+}
