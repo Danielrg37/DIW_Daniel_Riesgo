@@ -1,0 +1,60 @@
+#contenedor {
+  border: 5px solid black;
+  height: 1000px;
+  width: 1000px;
+  position: relative;
+}
+#contenedor #articulo1 {
+  background-color: gray;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+}
+#contenedor #articulo2 {
+  background-color: gray;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+}
+#contenedor #articulo3 {
+  background-color: gray;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+}
+#contenedor #articulo4 {
+  background-color: gray;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+}
+#contenedor #articulo5 {
+  background-color: gray;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+}
+#contenedor #articulo6 {
+  background-color: gray;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+}
+#contenedor #articulo7 {
+  background-color: gray;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+}
+#contenedor p {
+  background-color: lightgray;
+  text-align: center;
+  padding-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 5px 5px;
+  height: 50px;
+}
+#contenedor img {
+  margin-top: 10px;
+}/*# sourceMappingURL=estilos.css.map */
