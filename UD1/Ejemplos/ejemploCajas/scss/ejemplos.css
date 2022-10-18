@@ -1,0 +1,16 @@
+#contenedor .boton {
+  height: 400px;
+  width: 200px;
+}
+#contenedor #caja1 {
+  background-color: #0014ff;
+}
+#contenedor #caja2 {
+  background-color: #0028ff;
+}
+#contenedor #caja3 {
+  background-color: #003cff;
+}
+#contenedor #caja4 {
+  background-color: #0050ff;
+}/*# sourceMappingURL=ejemplos.css.map */

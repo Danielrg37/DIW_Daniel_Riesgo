@@ -1,0 +1,17 @@
+#contenedor {
+  background-color: gray;
+  border: 5px solid black;
+  display: flex;
+}
+#contenedor .boton-clave {
+  color: white;
+  background-color: #FF0000;
+}
+#contenedor .boton-clave {
+  color: white;
+  background-color: #00FF00;
+}
+#contenedor .boton-clave {
+  color: white;
+  background-color: #0000FF;
+}/*# sourceMappingURL=ejemplos.css.map */

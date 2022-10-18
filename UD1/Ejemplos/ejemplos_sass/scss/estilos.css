@@ -1,0 +1,22 @@
+* {
+  color: blue;
+  padding: 1em;
+  font-family: "Arial";
+}
+
+main {
+  padding: 1em;
+}
+main div {
+  border: 1px solid blue;
+}
+main div p {
+  color: peru;
+}
+
+nav #lista1 {
+  color: peru;
+}
+nav #lista2 {
+  color: #cde93f;
+}/*# sourceMappingURL=estilos.css.map */

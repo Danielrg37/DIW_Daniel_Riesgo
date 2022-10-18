@@ -1,0 +1,35 @@
+#contenedor {
+  background-color: gray;
+  border: 5px solid black;
+  display: flex;
+}
+#contenedor .iconos {
+  height: 100px;
+  width: 400px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#contenedor #facebook {
+  background-image: url("img/facebook.png");
+}
+#contenedor #facebook:hover {
+  background-image: url("img/facebook_color.png");
+}
+#contenedor #twitter {
+  background-image: url("img/twitter.png");
+}
+#contenedor #twitter:hover {
+  background-image: url("img/twitter_color.png");
+}
+#contenedor #you_tube {
+  background-image: url("img/you_tube.png");
+}
+#contenedor #you_tube:hover {
+  background-image: url("img/you_tube_color.png");
+}
+#contenedor #flickr {
+  background-image: url("img/flickr.png");
+}
+#contenedor #flickr:hover {
+  background-image: url("img/flickr_color.png");
+}/*# sourceMappingURL=ejemplos.css.map */
