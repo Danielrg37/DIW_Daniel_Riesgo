@@ -3,22 +3,33 @@
 
 $color_fondo: gray;
 $color_header: rgb(59, 57, 57);
+
 @font-face{
     font-family: BolwayOneSC;
     src: url(../fonts/bowlby-one-sc-v19-latin-regular.ttf);
+}
+
+main{
+    text-align: center;
 }
 
 body{
     background-color: rgb(122, 118, 118);
 }
 
+
+
+#contenedor{
+    width:80%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+
 header{
-    
 background-color: $color_header;
 text-align: center;
 color:white;
-margin: 0 auto;
-
 
     h1{
     font-size: 60px;
@@ -32,36 +43,21 @@ margin: 0 auto;
     }
 }
 
-#centrar{
-    margin-left:20%;
-    margin-right: 20%;
-    width:100%;
-}
-
-#contenedor{
-    width:80%;
-    margin: 0 auto;
-    background-color: white;
-
-   
 
 article{
     background-color: $color_fondo;
     width: 30%;
     display: inline-block;
     margin: auto;
-    margin-top: 250px;
-    margin: 20px;
+    margin: 10px;
 
     p{
         background-color: lightgray;
         text-align: center;
         padding-top: 20px;
-        margin-left: 10px;
-        margin-right: 10px;
+        margin: 10px;
         border-radius: 5px 5px;
         height: 50px;
-        margin-bottom: 5px;
         font-family: BolwayOneSC;
     }
 
@@ -75,6 +71,8 @@ article{
 }
 
 
+
+
 footer{
     background-color: $color_header;
     text-align: center;
@@ -84,9 +82,6 @@ footer{
     font-family: BolwayOneSC;
 }
 
-main{
-    padding: 15px;
-}
 
-}
+
 

@@ -1,5 +1,6 @@
 @use "sass:color";
 
+
 $color_fondo: gray;
 $color_header: rgb(59, 57, 57);
 
@@ -8,6 +9,16 @@ $color_header: rgb(59, 57, 57);
     src: url(../fonts/bowlby-one-sc-v19-latin-regular.ttf);
 }
 
+main{
+    text-align: center;
+}
+
+body{
+    background-color: rgb(122, 118, 118);
+}
+
+
+
 #contenedor{
     width:80%;
     margin: 0 auto;
@@ -15,10 +26,22 @@ $color_header: rgb(59, 57, 57);
 }
 
 
-body{
-    background-color: rgb(122, 118, 118);
-}
-
+header {
+    background-color: rgb(59, 57, 57);
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+   h1 {
+    font-size: 60px;
+    font-family: BolwayOneSC;
+  }
+  
+  h2 {
+    margin-top: 10px;
+    font-size: 40px;
+    font-family: BolwayOneSC;
+  }
+  }
 
 
 ul {
@@ -29,10 +52,10 @@ ul {
   
   li a {
     display: block;
-    color: darkgray;
+    color: black;
     text-decoration: none;
     text-align: center;
-    padding: 15px;
+    padding: 16px;
   }
 
   li a:hover{
@@ -50,67 +73,33 @@ background-repeat: no-repeat;
 display: inline-block;
 background-size: cover;
 
-#texto-encima{
-position: absolute;
+p{
 text-align: center;
-left: 50px;
-background-color: gray;
+background-color: rgb(179, 178, 178);
 color:white;
-font-size:40px;
+font-size:48px;
 }
 }
 
 #limpia{
     clear: both;
+    height:12px;
 }
-
-header{
-background-color: $color_header;
-text-align: center;
-color:white;
-margin: 0 auto;
-
-
-    h1{
-    font-size: 60px;
-    font-family: BolwayOneSC;
-    }
-
-    h2{
-    margin-top: 10px;
-    font-size:40px;
-    font-family: BolwayOneSC;
-    }
-}
-
-
-#centrar{
-    margin-left:19%;
-    margin-right:19%;
-    width:100%;
-}
-
-
-
-    
 
 article{
     background-color: $color_fondo;
     width: 30%;
     display: inline-block;
     margin: auto;
-    margin-top: 250px;
-    margin: 20px;
+    margin: 10px;
 
     p{
         background-color: lightgray;
         text-align: center;
         padding-top: 20px;
-        margin-left: 10px;
-        margin-right: 10px;
+        margin: 10px;
         border-radius: 5px 5px;
         height: 50px;
-        margin-bottom: 5px;
         font-family: BolwayOneSC;
     }
 
@@ -133,6 +122,3 @@ footer{
     font-family: BolwayOneSC;
 }
 
-main{
-    padding: 15px;
-}

@@ -2,19 +2,39 @@
   font-family: BolwayOneSC;
   src: url(../fonts/bowlby-one-sc-v19-latin-regular.ttf);
 }
-#contenedor {
-  width: 80%;
-  margin: 0 auto;
-  background-color: white;
+main {
+  text-align: center;
 }
 
 body {
   background-color: rgb(122, 118, 118);
 }
 
+#contenedor {
+  width: 80%;
+  margin: 0 auto;
+  background-color: white;
+}
+
 #cabecera {
   margin: auto;
   text-align: center;
+}
+
+header {
+  background-color: rgb(59, 57, 57);
+  text-align: center;
+  color: white;
+  margin: 0 auto;
+}
+header h1 {
+  font-size: 60px;
+  font-family: BolwayOneSC;
+}
+header h2 {
+  margin-top: 10px;
+  font-size: 40px;
+  font-family: BolwayOneSC;
 }
 
 nav {
@@ -47,42 +67,15 @@ nav ul li a {
   display: inline-block;
   background-size: cover;
 }
-
-#banner #texto-encima {
-  position: absolute;
+#banner p {
   text-align: center;
-  left: 50px;
-  background-color: gray;
+  background-color: rgb(179, 178, 178);
   color: white;
-  font-size: 40px;
+  font-size: 48px;
 }
 
 #limpia {
   clear: both;
-}
-
-header {
-  background-color: rgb(59, 57, 57);
-  text-align: center;
-  color: white;
-  margin: 0 auto;
-}
-
-header h1 {
-  font-size: 60px;
-  font-family: BolwayOneSC;
-}
-
-header h2 {
-  margin-top: 10px;
-  font-size: 40px;
-  font-family: BolwayOneSC;
-}
-
-#centrar {
-  margin-left: 19%;
-  margin-right: 19%;
-  width: 100%;
 }
 
 article {
@@ -90,22 +83,17 @@ article {
   width: 30%;
   display: inline-block;
   margin: auto;
-  margin-top: 250px;
-  margin: 20px;
+  margin: 10px;
 }
-
 article p {
   background-color: lightgray;
   text-align: center;
   padding-top: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: 10px;
   border-radius: 5px 5px;
   height: 50px;
-  margin-bottom: 5px;
   font-family: BolwayOneSC;
 }
-
 article img {
   margin-top: 10px;
   width: 80%;
@@ -121,20 +109,17 @@ footer {
   margin: 0 auto;
   padding: 1em;
   font-family: BolwayOneSC;
+  width: 80%;
 }
-
-#texto {
+footer #texto {
   float: left;
 }
-
-#social {
+footer #social {
   float: right;
 }
-
-i {
+footer i {
   font-size: 50px;
 }
-
-main {
+footer main {
   padding: 15px;
 }/*# sourceMappingURL=estilos.css.map */

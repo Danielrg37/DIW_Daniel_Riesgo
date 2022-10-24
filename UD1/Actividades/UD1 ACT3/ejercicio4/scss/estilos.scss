@@ -1,21 +1,54 @@
-@font-face {
-  font-family: BolwayOneSC;
-  src: url(../fonts/bowlby-one-sc-v19-latin-regular.ttf);
-}
-#contenedor {
-  width: 80%;
-  margin: 0 auto;
-  background-color: white;
+@use "sass:color";
+
+
+$color_fondo: gray;
+$color_header: rgb(59, 57, 57);
+
+@font-face{
+    font-family: BolwayOneSC;
+    src: url(../fonts/bowlby-one-sc-v19-latin-regular.ttf);
 }
 
-body {
-  background-color: rgb(122, 118, 118);
+main{
+    text-align: center;
 }
+
+body{
+    background-color: rgb(122, 118, 118);
+}
+
+#contenedor{
+    width:80%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+
 
 #cabecera {
   margin: auto;
   text-align: center;
 }
+
+
+header {
+  background-color: rgb(59, 57, 57);
+  text-align: center;
+  color: white;
+  margin: 0 auto;
+
+ h1 {
+  font-size: 60px;
+  font-family: BolwayOneSC;
+}
+
+h2 {
+  margin-top: 10px;
+  font-size: 40px;
+  font-family: BolwayOneSC;
+}
+}
+
 
 nav {
   width: 100%;
@@ -38,77 +71,54 @@ nav ul li a {
   text-decoration: none;
 }
 
-#banner {
-  width: 100%;
-  height: 250px;
+#banner{
+  width:100%;
+  height:250px;
   padding-top: 100px;
-  background-image: url(../img/movies.jpg);
+  background-image:url(../img/movies.jpg);
   background-repeat: no-repeat;
   display: inline-block;
   background-size: cover;
-}
-#banner #texto-encima {
-  position: absolute;
+  
+  p{
   text-align: center;
-  left: 50px;
-  background-color: gray;
-  color: white;
-  font-size: 40px;
-}
+  background-color: rgb(179, 178, 178);
+  color:white;
+  font-size:48px;
+  }
+  }
+  
 
 #limpia {
   clear: both;
 }
 
-header {
-  background-color: rgb(59, 57, 57);
-  text-align: center;
-  color: white;
-  margin: 0 auto;
-}
-
-header h1 {
-  font-size: 60px;
-  font-family: BolwayOneSC;
-}
-header h2 {
-  margin-top: 10px;
-  font-size: 40px;
-  font-family: BolwayOneSC;
-}
-
-#centrar {
-  margin-left: 19%;
-  margin-right: 19%;
-  width: 100%;
-}
-
-article {
-  background-color: gray;
+article{
+  background-color: $color_fondo;
   width: 30%;
   display: inline-block;
   margin: auto;
-  margin-top: 250px;
-  margin: 20px;
+  margin: 10px;
+
+  p{
+      background-color: lightgray;
+      text-align: center;
+      padding-top: 20px;
+      margin: 10px;
+      border-radius: 5px 5px;
+      height: 50px;
+      font-family: BolwayOneSC;
+  }
+
+  img{
+      margin-top: 10px;
+      width:80%;
+      display: block;
+      margin: auto;
+      margin-bottom: 10px;
+  }
 }
-article p {
-  background-color: lightgray;
-  text-align: center;
-  padding-top: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
-  border-radius: 5px 5px;
-  height: 50px;
-  margin-bottom: 5px;
-  font-family: BolwayOneSC;
-}
-article img {
-  margin-top: 10px;
-  width: 80%;
-  display: block;
-  margin: auto;
-  margin-bottom: 10px;
-}
+
 
 footer {
   background-color: rgb(59, 57, 57);
@@ -117,7 +127,8 @@ footer {
   margin: 0 auto;
   padding: 1em;
   font-family: BolwayOneSC;
-}
+  width: 80%;
+
 
 
 #texto{
@@ -136,3 +147,5 @@ footer {
   main {
     padding: 15px;
   }
+
+}

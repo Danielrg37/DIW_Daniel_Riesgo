@@ -1,8 +1,13 @@
+body {
+  background-color: rgb(122, 118, 118);
+}
+
 #contenedor {
-  border: 5px solid black;
   width: 80%;
   margin: 0 auto;
-  height: 1200px;
+  height: 100vh;
+  background-color: white;
+  padding: 100px;
 }
 
 article {
@@ -10,18 +15,23 @@ article {
   width: 30%;
   display: block;
   margin: auto;
-  margin-top: 250px;
-  padding: 0.8em;
+  margin-top: 15vh;
 }
 article h2 {
   background-color: lightgray;
   text-align: center;
-  padding: 0.5em;
+  padding-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
   border-radius: 5px 5px;
+  height: 50px;
+  margin-bottom: 5px;
+  font-family: BolwayOneSC;
 }
 article img {
   margin-top: 10px;
   width: 80%;
   display: block;
   margin: auto;
-}
+  margin-bottom: 5px;
+}/*# sourceMappingURL=estilos.css.map */
