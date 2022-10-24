@@ -1,19 +1,70 @@
 @use "sass:color";
 
-
 $color_fondo: gray;
 $color_header: rgb(59, 57, 57);
+
 @font-face{
     font-family: BolwayOneSC;
     src: url(../fonts/bowlby-one-sc-v19-latin-regular.ttf);
 }
 
+#contenedor{
+    width:80%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+
 body{
     background-color: rgb(122, 118, 118);
 }
 
+
+
+ul {
+   float:left;
+   display: inline-block;
+    width:20%;
+  }
+  
+  li a {
+    display: block;
+    color: darkgray;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
+  }
+
+  li a:hover{
+    background-color: yellow;
+  }
+
+
+#banner{
+float:left;
+width:80%;
+height:250px;
+padding-top: 100px;
+background-image:url(../img/movies.jpg);
+background-repeat: no-repeat;
+display: inline-block;
+background-size: cover;
+
+#texto-encima{
+position: absolute;
+text-align: center;
+left: 50px;
+background-color: gray;
+color:white;
+font-size:40px;
+}
+}
+
+#limpia{
+    clear: both;
+}
+
 header{
-    
 background-color: $color_header;
 text-align: center;
 color:white;
@@ -32,18 +83,16 @@ margin: 0 auto;
     }
 }
 
+
 #centrar{
-    margin-left:20%;
-    margin-right: 20%;
+    margin-left:19%;
+    margin-right:19%;
     width:100%;
 }
 
-#contenedor{
-    width:80%;
-    margin: 0 auto;
-    background-color: white;
 
-   
+
+    
 
 article{
     background-color: $color_fondo;
@@ -87,6 +136,3 @@ footer{
 main{
     padding: 15px;
 }
-
-}
-
