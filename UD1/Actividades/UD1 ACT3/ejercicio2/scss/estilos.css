@@ -16,16 +16,10 @@ body {
   background-color: white;
 }
 
-#cabecera {
-  margin: auto;
-  text-align: center;
-}
-
 header {
   background-color: rgb(59, 57, 57);
   text-align: center;
   color: white;
-  margin: 0 auto;
 }
 header h1 {
   font-size: 60px;
@@ -35,47 +29,6 @@ header h2 {
   margin-top: 10px;
   font-size: 40px;
   font-family: BolwayOneSC;
-}
-
-nav {
-  width: 100%;
-}
-
-nav ul {
-  list-style-type: none;
-  text-align: center;
-}
-
-nav ul li {
-  text-align: center;
-  padding: 15px;
-  display: inline-block;
-}
-
-nav ul li a {
-  color: black;
-  text-align: center;
-  text-decoration: none;
-}
-
-#banner {
-  width: 100%;
-  height: 250px;
-  padding-top: 100px;
-  background-image: url(../img/movies.jpg);
-  background-repeat: no-repeat;
-  display: inline-block;
-  background-size: cover;
-}
-#banner p {
-  text-align: center;
-  background-color: rgb(179, 178, 178);
-  color: white;
-  font-size: 48px;
-}
-
-#limpia {
-  clear: both;
 }
 
 article {
@@ -109,17 +62,4 @@ footer {
   margin: 0 auto;
   padding: 1em;
   font-family: BolwayOneSC;
-  width: 80%;
-}
-footer #texto {
-  float: left;
-}
-footer #social {
-  float: right;
-}
-footer i {
-  font-size: 50px;
-}
-footer main {
-  padding: 15px;
-}
+}/*# sourceMappingURL=estilos.css.map */
