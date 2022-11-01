@@ -1,0 +1,15 @@
+#contacto{
+    width:100%;
+    flex-direction: column;
+    
+    .formulario-contacto{
+        flex-basis: 50%;
+        background-color: rgb(175, 129, 28);
+        flex-direction: column;
+    }
+
+    .form.datos-contacto{
+        flex-basis: 50%;
+        flex-direction: column;
+    }
+}

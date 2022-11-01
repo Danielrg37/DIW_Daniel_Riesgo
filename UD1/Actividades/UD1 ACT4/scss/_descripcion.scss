@@ -1,41 +1,50 @@
 #descripcion{
 display: flex;
 background-color: black;
+flex-direction: row;
+display: flex;
 
 
 
 .servicios{
-    flex-basis:50%;
-    display: flex;
+    flex-basis: 50%;
+    justify-content:space-between;
+    align-items: stretch;
     flex-direction: column;
-    align-items: center;
+    border:5px solid red;
+   
 
 h2{
-    font-size: 24px;
+    font-size: 44px;
     color:white;
+    text-align: center;
 }
 
 p{
 color: white;
-font-size: 32px;
+font-size: 20px;
+text-align: center;
 }
 
 }
-
 
 .contrastes{
-    width:50%;
+    border: 5px solid green;
+    flex-basis: 50%;
     display: flex;
+    flex-direction: column;
 
-.experiencia{
-background-color: red;
-flex-grow: 1;
+.logo{
+img{
+    width:100%;
+    height:100%;
+    border:5px solid blue;
+    
 }
 
-.clientes{
-background-color: yellow;
-flex-grow: 1;
+}
+}
 }
 
-}
-}
+
+
