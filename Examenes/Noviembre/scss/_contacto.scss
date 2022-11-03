@@ -1,0 +1,30 @@
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(49, 45, 45);
+    height:50px;
+    justify-content: space-around;
+    
+p{
+    padding-left: 12em;
+    color: white;
+    padding-top: 1em;
+}
+
+.iconos{
+display: flex;
+
+    ul{
+        display: flex;
+        color: white;
+        padding-top: 1em;
+        justify-content: flex-end;
+    }
+
+    i{
+        padding-right: 0.5em;
+    }
+    
+    }
+
+}

@@ -1,0 +1,17 @@
+@import "_variables.scss";
+@import "_ayuda.scss";
+@import "_banner.scss";
+@import "_cabecera.scss";
+@import "_cita.scss";
+@import "_contacto.scss";
+@import "_descripcion.scss";
+
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto-Regular.ttf);
+}
+
+*{
+    font-family: Roboto;
+}
+

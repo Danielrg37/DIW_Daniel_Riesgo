@@ -1,0 +1,46 @@
+header{
+    display: flex;
+    color: $azul-claro;
+    justify-content: space-between;
+    padding: 1em;
+
+
+    .banner{
+        display: flex;
+        align-items: flex-start;
+    
+
+    #logo{
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .titulo{
+        align-self: center;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+
+    h1{
+        align-self: center;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 26px;
+        }
+    }
+        
+        nav ul{
+            display: flex;
+            align-self: center;    
+            align-content: center;
+            gap:20px;
+            padding-top: 1.2em;
+            padding-right: 2em;
+        }
+    }
+
