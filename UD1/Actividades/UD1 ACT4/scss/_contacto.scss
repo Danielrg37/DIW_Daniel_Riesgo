@@ -1,15 +1,24 @@
 #contacto{
-    width:100%;
-    flex-direction: column;
-    
+    flex-direction: row;
+    display: flex;
+
     .formulario-contacto{
         flex-basis: 50%;
-        background-color: rgb(175, 129, 28);
+        background-color: yellow;
+        display: flex;
         flex-direction: column;
     }
 
-    .form.datos-contacto{
+    .datos-contacto{
         flex-basis: 50%;
+        display: flex;
+        justify-content: center;
+        background-color: red;
+    }
+
+    .datos{
+        display: flex;
+        justify-content: center;
         flex-direction: column;
     }
 }
