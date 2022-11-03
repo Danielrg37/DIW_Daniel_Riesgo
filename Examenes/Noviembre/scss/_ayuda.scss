@@ -16,28 +16,32 @@
     }
 
 
- .articulos{
-    flex-direction: row;
-    flex-wrap: wrap;
-    display: flex;
-    justify-content: center;
+    .articulos {
+        flex-direction: row;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
 
 
-    article{
-       padding: 3em;
-       text-align: center;
-        i {
-            font-size: 38px;
-            color: $azul-claro;
-            justify-content: flex-start;
+        article {
+            padding: 3em;
+            text-align: center;
+
+            i {
+                font-size: 38px;
+                color: $azul-claro;
+                justify-content: flex-start;
+            }
+
+            h4,
+            p {
+                padding-top: 0.5em;
+                
+            }
+
+
+
+
         }
-
-        h4, p{
-            padding-top: 0.5em;
-        }
-
-     
-        
     }
-}
 }

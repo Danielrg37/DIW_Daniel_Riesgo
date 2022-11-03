@@ -1,6 +1,6 @@
-#main-slider{
+#main-slider {
     background-image: url(../css/img/banner/banner.jpg);
-    height:350px;
+    height: 350px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -9,26 +9,26 @@
     background-repeat: no-repeat;
     background-size: cover;
 
- h2{
-    color: white;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    background-color: $azul-claro;
-    padding: 1em;
-    font-size: 24px;
- }  
+    h2 {
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        background-color: $azul-claro;
+        padding: 1em;
+        font-size: 24px;
+    }
 
 
- p{
-    color: white;
-    font-size: 18px;
- }
+    p {
+        color: white;
+        font-size: 18px;
+    }
 
- a{
-    background-color: $azul-claro;
-    color: white;
-    padding:1em;
-    font-size: 18px;
- }
+    a {
+        background-color: $azul-claro;
+        color: white;
+        padding: 1em;
+        font-size: 18px;
+    }
 }
