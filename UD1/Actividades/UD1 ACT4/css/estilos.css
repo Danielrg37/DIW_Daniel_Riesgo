@@ -32,70 +32,27 @@
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
-  flex-direction: row;
-  display: flex;
 }
 #banner .identidad-corporativa-big {
   display: flex;
-  flex-direction: column;
-  text-align: center;
+  align-items: flex-start;
   flex-basis: 50%;
-  align-items: center;
-  justify-content: center;
 }
 #banner .identidad-corporativa-big .logo {
   width: 60%;
-  align-items: center;
-  justify-content: center;
 }
-#banner .identidad-corporativa-big .logo h1 {
-  font-size: 64px;
+#banner .identidad-corporativa-big label {
   color: white;
+  font-size: 32px;
 }
-#banner .identidad-corporativa-big .logo h2 {
-  font-size: 64px;
-}
-#banner .identidad-corporativa-big .logo #color {
+#banner .identidad-corporativa-big #color {
   color: red;
-}
-#banner .servicios {
-  display: flex;
-  flex-basis: 50%;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-align: left;
 }
 #banner .servicios h1 {
   color: white;
-  justify-content: flex-start;
-  font-size: 50px;
-  padding-bottom: 1.5em;
-  padding-right: 6em;
 }
 #banner .servicios h2 {
   color: white;
-  font-size: 32px;
-  display: flex;
-  padding-left: 6em;
-  padding-bottom: 1em;
-}
-#banner .servicios p {
-  color: white;
-  font-size: 22px;
-  padding-right: 2em;
-  padding-bottom: 1em;
-}
-#banner .servicios .articulo {
-  flex-direction: row;
-  display: flex;
-}
-#banner .servicios .icono {
-  padding-right: 1em;
-  font-size: 68px;
-  color: rgb(221, 192, 29);
-  padding-left: 2em;
-  padding-bottom: 0.5em;
 }
 
 #cabecera {

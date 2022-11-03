@@ -10,14 +10,21 @@
 }
 #services .articulos {
   flex-direction: row;
+  flex-wrap: wrap;
   display: flex;
-  justify-content: space-evenly;
-  padding: 2em;
+  justify-content: center;
+}
+#services .articulos article {
+  padding: 3em;
+  text-align: center;
 }
 #services .articulos article i {
   font-size: 38px;
   color: #45aed6;
   justify-content: flex-start;
+}
+#services .articulos article h4, #services .articulos article p {
+  padding-top: 0.5em;
 }
 
 #main-slider {
@@ -108,12 +115,16 @@ header nav ul {
   display: flex;
   flex-direction: row;
   padding-bottom: 0.5em;
+  padding-left: 2em;
+  padding-right: 2em;
+  background-color: white;
+  gap: 1em;
 }
-#meet-team article {
+#meet-team .articulos article {
   background-color: #f5f5f5;
   text-align: center;
 }
-#meet-team h3, #meet-team span, #meet-team p {
+#meet-team .articulos h3, #meet-team .articulos span, #meet-team .articulos p {
   padding-top: 1em;
 }
 
@@ -143,17 +154,16 @@ footer .iconos i {
 }
 
 #portfolio {
-  padding-top: 2em;
+  padding-top: 1em;
   display: flex;
   flex-direction: column;
-}
-#portfolio .section-header {
   background-color: #f5f5f5;
+  padding-bottom: 0.8em;
 }
 #portfolio h2 {
   font-size: 28px;
   text-align: center;
-  padding-top: 1em;
+  padding-top: 0.2em;
 }
 #portfolio p {
   font-size: 16px;

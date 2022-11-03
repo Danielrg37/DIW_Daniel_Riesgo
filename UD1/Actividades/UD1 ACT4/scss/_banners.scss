@@ -3,80 +3,38 @@
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-    flex-direction: row;
-    display: flex;
 
     .identidad-corporativa-big{
         display: flex;
-        flex-direction: column;
-        text-align: center;
-        flex-basis: $mitad;
-        align-items: center;
-        justify-content: center;
-
+        align-items: flex-start;
+        flex-basis: 50%;
+      
         .logo{
         width:60%;
-        align-items: center;
-        justify-content: center;
+        }
 
-       h1{
-        font-size: 64px;
-        color:white;
-       }
-
-       h2{
-        font-size: 64px;
-       }
-    
-       #color{
-        color:red;
+        label{
+            color:white;
+            font-size: 32px;
+        }
+        
+        #color{
+            color: red;
+        }
     }
-    }
-}
 
     .servicios{
-        display: flex;
-        flex-basis: $mitad;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        text-align: left;
-     
-    h1{
-        color:white;
-        justify-content: flex-start;
-        font-size:50px;
-        padding-bottom: 1.5em;
-        padding-right: 6em;
-    }
+
+
         
-    h2{
+        
+    h1 {
         color: white;
-        font-size: 32px;
-        display: flex;
-        padding-left: 6em;
-        padding-bottom: 1em;
     }
 
-    p{
+    h2 {
         color: white;
-        font-size: 22px;
-        padding-right: 2em;
-        padding-bottom: 1em;
     }
-
-    .articulo{
-        flex-direction: row;
-        display: flex;
-    }
-
-    .icono{
-        padding-right: 1em;
-        font-size: 68px;
-        color: $colorIconos;
-        padding-left: 2em;
-        padding-bottom: 0.5em;
 }
 
-}
 }

@@ -1,17 +1,14 @@
 #portfolio{
-padding-top: 2em;
+padding-top: 1em;
 display: flex;
 flex-direction: column;
+background-color: $fondo-claro;
+padding-bottom: 0.8em;
 
-
-    .section-header{
-        background-color: $fondo-claro;
-    }
-   
     h2{
         font-size: 28px;
         text-align: center;
-        padding-top: 1em;
+        padding-top: 0.2em;
     }
 
     p{
@@ -30,16 +27,18 @@ flex-direction: column;
    .fotos1{
     flex-basis: 50%;
     display: flex;
+
       img{   
         padding: 0.2em;
         width:50%;
-      
       }  
     }
 
     .fotos2{
         display: flex;
         flex-basis: 50%;
+
+        
         img{
             padding: 0.2em;
             width:50%;
