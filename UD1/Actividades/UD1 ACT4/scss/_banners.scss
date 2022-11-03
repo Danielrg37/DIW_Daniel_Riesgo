@@ -43,21 +43,46 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        text-align: left;
+     
+   
 
-    
-
-    h1, h2 {
+    h1{
+       
+        color:white;
+        justify-content: flex-start;
+        font-size:50px;
+        padding-bottom: 1.5em;
+        padding-right: 6em;
+    }
+        
+    h2{
         color: white;
         font-size: 32px;
-        text-align: center;
+        display: flex;
+        padding-left: 6em;
+        padding-bottom: 1em;
     }
 
     p{
         color: white;
         font-size: 22px;
+        padding-right: 2em;
+        padding-bottom: 1em;
     }
 
+    .articulo{
+        flex-direction: row;
+        display: flex;
+    }
 
+    .icono{
+        padding-right: 1em;
+        font-size: 68px;
+        color: yellow;
+        padding-left: 2em;
+
+    
 }
-
+}
 }

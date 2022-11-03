@@ -2,15 +2,29 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  row-gap: 200px;
+  padding: 6em;
+  display: flex;
+}
+#ayuda .datos {
+  display: flex;
+  flex-direction: row;
 }
 #ayuda h1 {
   color: black;
-  font-size: 40px;
+  font-size: 52px;
+  padding-right: 2em;
 }
 #ayuda p {
   color: rgb(211, 211, 12);
+  font-size: 42px;
+  padding-right: 2em;
+}
+#ayuda button {
+  border: 3px solid yellow;
+  display: flex;
+  color: yellow;
   font-size: 24px;
+  padding: 12px;
 }
 
 #banner {
@@ -50,15 +64,37 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  text-align: left;
 }
-#banner .servicios h1, #banner .servicios h2 {
+#banner .servicios h1 {
+  color: white;
+  justify-content: flex-start;
+  font-size: 50px;
+  padding-bottom: 1.5em;
+  padding-right: 6em;
+}
+#banner .servicios h2 {
   color: white;
   font-size: 32px;
-  text-align: center;
+  display: flex;
+  padding-left: 6em;
+  padding-bottom: 1em;
 }
 #banner .servicios p {
   color: white;
   font-size: 22px;
+  padding-right: 2em;
+  padding-bottom: 1em;
+}
+#banner .servicios .articulo {
+  flex-direction: row;
+  display: flex;
+}
+#banner .servicios .icono {
+  padding-right: 1em;
+  font-size: 68px;
+  color: yellow;
+  padding-left: 2em;
 }
 
 #cabecera {
@@ -110,6 +146,7 @@
 
 #cita {
   text-align: center;
+  padding: 4em;
 }
 #cita #texto1 {
   color: black;
@@ -121,25 +158,70 @@
 }
 
 #contacto {
-  flex-direction: row;
   display: flex;
 }
 #contacto .formulario-contacto {
+  display: flex;
   flex-basis: 50%;
+  flex-direction: column;
   background-color: yellow;
-  display: flex;
-  flex-direction: column;
+  gap: 1em;
+  padding: 1em;
 }
-#contacto .datos-contacto {
+#contacto .formulario-contacto h2 {
+  font-size: 2.5em;
+  text-align: center;
+}
+#contacto .formulario-contacto input {
+  padding: 0.8em;
+}
+#contacto .formulario-contacto :focus {
+  outline: none;
+  border: none;
+  background-color: lightgray;
+}
+#contacto button {
+  background-color: yellow;
+  border: 3px solid black;
+  padding: 1em;
+  align-self: flex-end;
+}
+
+.datos-contacto {
+  display: flex;
   flex-basis: 50%;
-  display: flex;
-  justify-content: center;
-  background-color: red;
-}
-#contacto .datos {
-  display: flex;
-  justify-content: center;
   flex-direction: column;
+  gap: 1em;
+  background-color: black;
+}
+.datos-contacto .fb {
+  display: flex;
+  align-self: center;
+  font-size: 1.8em;
+  padding: 1.2em;
+  color: black;
+}
+.datos-contacto .fb i {
+  color: white;
+}
+.datos-contacto .datos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1em;
+  gap: 1em;
+  flex-basis: 100%;
+  background-color: white;
+}
+.datos-contacto .datos .dato-contacto {
+  display: flex;
+  flex-direction: row;
+  flex-basis: 10%;
+  font-size: 1.8em;
+  padding: 1em;
+}
+.datos-contacto .datos .dato-contacto i {
+  padding-right: 2em;
 }
 
 #descripcion {
@@ -148,22 +230,33 @@
   flex-direction: row;
   display: flex;
 }
-#descripcion .servicios {
+#descripcion .servicios2 {
   flex-basis: 50%;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: stretch;
   flex-direction: column;
-  border: 5px solid red;
+  border: 5px solid pink;
+  display: flex;
 }
-#descripcion .servicios h2 {
-  font-size: 44px;
+#descripcion .servicios2 i {
+  font-size: 32px;
+  color: yellow;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 0.5em;
+}
+#descripcion .servicios2 h2 {
+  font-size: 26px;
   color: white;
   text-align: center;
 }
-#descripcion .servicios p {
+#descripcion .servicios2 p {
+  padding: 1em;
   color: white;
-  font-size: 20px;
+  font-size: 22px;
   text-align: center;
+  justify-content: space-around;
 }
 #descripcion .contrastes {
   border: 5px solid green;
@@ -180,16 +273,29 @@
   flex-direction: row;
   border: 5px solid pink;
   display: flex;
+  flex-grow: 1;
 }
 #descripcion .contrastes .contrastes2 .clientes {
   background-color: red;
   display: flex;
   flex-basis: 50%;
-  flex: 1;
+  flex-grow: 1;
+  padding: 1em;
+}
+#descripcion .contrastes .contrastes2 .clientes p {
+  text-align: center;
+  padding-left: 4em;
+  font-size: 20px;
 }
 #descripcion .contrastes .contrastes2 .experiencia {
   background-color: yellow;
   flex-basis: 50%;
   display: flex;
-  flex: 1;
+  flex-grow: 1;
+  padding: 1em;
+}
+#descripcion .contrastes .contrastes2 .experiencia p {
+  text-align: center;
+  padding-left: 4em;
+  font-size: 20px;
 }/*# sourceMappingURL=estilos.css.map */

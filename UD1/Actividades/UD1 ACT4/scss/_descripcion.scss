@@ -6,27 +6,41 @@ display: flex;
 
 
 
-.servicios{
+.servicios2{
     flex-basis: 50%;
-    justify-content:space-between;
+    justify-content:space-around;
     align-items: stretch;
     flex-direction: column;
-    border:5px solid red;
-   
+    border:5px solid pink;
+    display: flex;
+
+i{
+    font-size: 32px;
+    color:yellow;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 0.5em;
+}
 
 h2{
-    font-size: 44px;
+    font-size: 26px;
     color:white;
-    text-align: center;
+    text-align: center;   
 }
 
 p{
+padding: 1em;
 color: white;
-font-size: 20px;
+font-size: 22px;
 text-align: center;
+justify-content: space-around;
 }
 
 }
+
+
+
 
 .contrastes{
     border: 5px solid green;
@@ -48,24 +62,41 @@ img{
     flex-direction: row;
     border:5px solid pink;
     display: flex;
+    flex-grow: 1;
 
 .clientes{
     background-color: red;
     display: flex;
     flex-basis: 50%;
-    flex: 1;
+    flex-grow: 1;
+    padding: 1em;
+   
+    p{
+        text-align: center;
+        padding-left: 4em;
+        font-size: 20px;
+    }
 }
 
 .experiencia{
     background-color: yellow;
     flex-basis: 50%;
     display: flex;
-    flex: 1;
+    flex-grow:1;
+    padding: 1em;
+   
+    p{
+        text-align: center;
+        padding-left: 4em;
+        font-size: 20px;
+    }
+
+   
+}
 }
 
 }
+
+
+
 }
-}
-
-
-
