@@ -10,7 +10,7 @@
         display: flex;
         flex-direction: column;
         text-align: center;
-        flex-basis: 50%;
+        flex-basis: $mitad;
         align-items: center;
         justify-content: center;
 
@@ -28,27 +28,21 @@
         font-size: 64px;
        }
     
-    
        #color{
         color:red;
     }
-
-
     }
 }
 
     .servicios{
         display: flex;
-        flex-basis: 50%;
+        flex-basis: $mitad;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         text-align: left;
      
-   
-
     h1{
-       
         color:white;
         justify-content: flex-start;
         font-size:50px;
@@ -79,10 +73,10 @@
     .icono{
         padding-right: 1em;
         font-size: 68px;
-        color: yellow;
+        color: $colorIconos;
         padding-left: 2em;
-
-    
+        padding-bottom: 0.5em;
 }
+
 }
 }

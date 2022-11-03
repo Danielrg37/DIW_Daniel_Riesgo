@@ -7,16 +7,15 @@ display: flex;
 
 
 .servicios2{
-    flex-basis: 50%;
+    flex-basis: $mitad;
     justify-content:space-around;
     align-items: stretch;
     flex-direction: column;
-    border:5px solid pink;
     display: flex;
 
 i{
     font-size: 32px;
-    color:yellow;
+    color:$colorIconos;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -40,11 +39,8 @@ justify-content: space-around;
 }
 
 
-
-
 .contrastes{
-    border: 5px solid green;
-    flex-basis: 50%;
+    flex-basis: $mitad;
     display: flex;
     flex-direction: column;
 
@@ -53,14 +49,12 @@ justify-content: space-around;
 img{
     width:100%;
     height:100%;
-    border:5px solid blue;
-
+    
 }
 }
 
 .contrastes2{
     flex-direction: row;
-    border:5px solid pink;
     display: flex;
     flex-grow: 1;
 
@@ -91,12 +85,10 @@ img{
         font-size: 20px;
     }
 
-   
-}
 }
 
 }
 
-
+}
 
 }
