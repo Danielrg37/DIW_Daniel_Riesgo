@@ -22,7 +22,6 @@ body{
                          ". main .";
 }
 
-
     main{
         display: grid;
         grid-template-areas: "prin"
@@ -30,7 +29,6 @@ body{
                              "foot";
         grid-area: main;
     
-
     #principal{
         display: grid;
         grid-area: prin;
