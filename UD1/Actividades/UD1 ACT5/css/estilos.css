@@ -1,0 +1,218 @@
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: rgb(19, 44, 80);
+  grid-area: head;
+}
+header .logo {
+  grid-column: 1;
+  justify-content: space-between;
+  padding-left: 25px;
+}
+header .logo h1 {
+  display: inline-grid;
+  color: white;
+}
+header .logo .blog {
+  color: rgb(143, 28, 66);
+}
+header .lema {
+  grid-column: 2;
+  display: inline-grid;
+}
+header .lema h1 {
+  color: gray;
+  padding-top: 3%;
+  font-size: 22px;
+}
+header nav {
+  display: grid;
+  align-content: center;
+  color: white;
+  grid-column: 3;
+}
+header nav ul li {
+  list-style: none;
+  align-items: center;
+  justify-items: center;
+  display: inline-grid;
+  align-content: center;
+  padding-right: 15px;
+  font-size: 20px;
+}
+header .social {
+  grid-column: 4;
+}
+header .social .iconos {
+  padding-top: 3%;
+  padding-left: 18em;
+  justify-items: end;
+}
+header .social .iconos i {
+  font-size: 48px;
+  color: rgb(160, 160, 190);
+}
+
+aside {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  background-color: rgb(255, 254, 255);
+}
+aside article img {
+  width: 100%;
+}
+aside article h1 {
+  color: black;
+  padding-top: 0.5em;
+  font-size: 1.5em;
+  text-align: center;
+}
+aside article p {
+  text-align: start;
+  font-size: 28px;
+  padding: 0.8em;
+}
+aside article .aside1 {
+  display: grid;
+  grid-row: 1;
+}
+aside article .aside2 {
+  display: grid;
+  grid-row: 2;
+}
+aside article .img_aside {
+  display: grid;
+  grid-row: 3;
+}
+
+#contacto {
+  grid-area: cont;
+  display: grid;
+  grid-template-columns: 25% 1fr 25%;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+}
+#contacto form {
+  background-color: rgb(19, 44, 80);
+  display: grid;
+  grid-column: 2/3;
+}
+#contacto h2 {
+  justify-items: center;
+  grid-column: 2/3;
+  font-size: 36px;
+  padding-right: 70px;
+  color: white;
+}
+#contacto label {
+  font-size: 24px;
+  color: white;
+  margin-bottom: 0.5em;
+}
+#contacto input, #contacto textarea {
+  display: grid;
+  margin-bottom: 0.5em;
+}
+
+footer {
+  display: grid;
+  grid-area: foot;
+  grid-template-columns: 1fr 1fr auto;
+  justify-content: space-between;
+  padding: 0.8em;
+  background-color: rgb(19, 44, 80);
+  color: white;
+}
+footer .nombre {
+  display: grid;
+  grid-column: 3;
+}
+
+#principal {
+  padding-top: 2em;
+}
+#principal .novedades {
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+}
+#principal .novedades .articulo1, #principal .novedades .articulo2, #principal .novedades .articulo3, #principal .novedades .articulo4, #principal .novedades .articulo5 {
+  grid-template-columns: repeat(2, 1fr);
+}
+#principal .novedades .articulo1 {
+  background-color: rgba(197, 37, 104, 0.829);
+  grid-row: 1;
+  grid-column: 1/3;
+}
+#principal .novedades .articulo2 {
+  background-color: rgb(12, 95, 95);
+  grid-row: 2;
+  grid-column: 1/3;
+}
+#principal .novedades .articulo3 {
+  background-color: rgb(192, 89, 21);
+  grid-row: 3;
+  grid-column: 1/3;
+}
+#principal .novedades .articulo4 {
+  background-color: rgba(197, 37, 104, 0.829);
+  grid-row: 4;
+  grid-column: 1/3;
+}
+#principal .novedades .articulo5 {
+  background-color: rgb(45, 149, 188);
+  grid-column: 1/3;
+}
+#principal .novedades img {
+  width: 100%;
+  height: 100%;
+}
+#principal .novedades article {
+  display: grid;
+}
+#principal .novedades article .contenido {
+  padding: 1.5em;
+}
+#principal .novedades article .contenido h3 {
+  font-size: 2em;
+  display: grid;
+  grid-row: 1;
+  justify-content: end;
+  color: white;
+}
+#principal .novedades article .contenido h1 {
+  display: grid;
+  grid-row: 2;
+  font-size: 3em;
+  color: white;
+}
+#principal .novedades article .contenido p {
+  display: grid;
+  grid-row: 3;
+  font-size: 24px;
+  color: white;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(fonts/Roboto-Regular.ttf);
+}
+body {
+  background-color: rgb(10, 25, 48);
+}
+
+#contenedor {
+  display: grid;
+  grid-template-columns: 7% 1fr 7%;
+  grid-template-areas: ". head ." ". main .";
+}
+
+main {
+  display: grid;
+  grid-template-areas: "prin" "cont" "foot";
+  grid-area: main;
+}
+main #principal {
+  display: grid;
+  grid-area: prin;
+  grid-template-columns: 75% auto;
+}/*# sourceMappingURL=estilos.css.map */

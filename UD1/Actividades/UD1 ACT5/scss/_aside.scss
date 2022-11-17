@@ -1,0 +1,48 @@
+aside{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: $aside;
+
+article{
+    img{
+        width:100%;
+    }
+
+    h1{
+        color: black;
+        padding-top: 0.5em;
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    
+    p{
+        text-align: start;
+        font-size: 28px;
+        padding: 0.8em;
+    }
+
+
+    .aside1{
+    display: grid;
+    grid-row: 1;
+    }
+
+    .aside2{
+        display: grid;
+        grid-row: 2;
+    }
+
+    .img_aside{
+        display: grid;
+        grid-row: 3;
+    }
+}
+
+
+
+
+
+
+
+}

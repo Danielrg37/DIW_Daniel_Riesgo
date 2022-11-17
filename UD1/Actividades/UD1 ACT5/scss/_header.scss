@@ -1,0 +1,70 @@
+header{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+background-color: $elemento;
+grid-area: head;
+
+.logo{
+grid-column: 1;
+justify-content: space-between;
+padding-left: 25px;
+
+h1{
+    display: inline-grid;
+    color: white;
+}
+
+.blog{
+    color: rgb(143, 28, 66);
+}
+}
+
+.lema{
+    grid-column: 2;
+    display: inline-grid;
+
+h1{
+    color: gray;
+    padding-top: 3%;
+    font-size: 22px;
+}
+}
+
+
+nav{    
+    display: grid;
+    align-content: center;
+   color: white;
+   grid-column: 3;
+
+ul{
+    li{
+    list-style: none;
+    align-items: center;
+    justify-items: center;
+    display: inline-grid;
+    align-content: center;
+    padding-right: 15px;
+    font-size: 20px;
+    }
+}
+}
+
+
+.social{
+    grid-column: 4;
+.iconos{
+    padding-top: 3%;
+    // Aquí probe con justify-items y justify-self, pero no me funcionaba
+    padding-left: 18em;
+    justify-items: end;
+    i{
+    font-size: 48px;
+    color: rgb(160, 160, 190);
+    }
+}
+}
+
+
+
+}
