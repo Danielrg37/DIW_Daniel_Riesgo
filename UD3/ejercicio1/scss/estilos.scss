@@ -27,43 +27,10 @@ img{
     padding-top: 1em;
 }
 
-nav{
-  ul{
-    li{
-      background-color: yellow;
-      padding: 1em;
-      margin: 1em;
-    }
-  }
-}
-
 .animal{
 h1{
     text-align: left;
     font-size: 2em;
     padding-bottom: 0.8em;
 }
-}
-
-aside{
-  background-color: orangered;
-}
-
-
-footer{
-background-color: orange;
-p{
-  text-align: center;
-}
-
-  .iconos{
-    display: flex;
-    flex-direction: row;
-    padding-top: 200px;
-    justify-content: center;
-    img{
-      width:50px;
-      height:50px;
-    }
-  }
 }
