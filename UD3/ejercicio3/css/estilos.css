@@ -385,16 +385,11 @@ section#contacto textarea {
 }
 
 footer {
-  display: grid;
-  grid-template-columns: 1fr 1fr auto;
-  justify-content: space-between;
-  padding: 0.8em;
+  padding: 1em;
   background-color: #162b4d;
-  color: white;
 }
-footer .nombre {
-  display: grid;
-  grid-column: 3;
+footer #nombre {
+  text-align: right;
 }
 
 * {

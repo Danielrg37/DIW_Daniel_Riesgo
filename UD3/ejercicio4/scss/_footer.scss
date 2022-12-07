@@ -1,13 +1,7 @@
 footer{
-    display: grid;
-    grid-template-columns: 1fr 1fr auto;
-    justify-content: space-between;
-    padding: 0.8em;
+    padding:$tam-base;
     background-color: $color-fondo-cabecera;
-    color: white;
-    
-.nombre{
-    display: grid;
-    grid-column: 3;
+    #nombre{
+    text-align: right;
 }
 }

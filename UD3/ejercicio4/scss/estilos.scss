@@ -4,6 +4,7 @@
 @import "_header.scss"; 
 @import "_principal.scss"; 
 @import "_aside.scss";
+@import "_contacto.scss";
 @import "_footer.scss";
 
 *{
@@ -30,3 +31,23 @@ body{
     row-gap:$tam-base*3; 
 }
 
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+  section#principal{
+   article{
+    margin-bottom: 1em;
+    margin-top: 1em;
+   }
+}
+
+   footer{
+    p{
+        text-align: center;
+    }
+
+    #nombre{
+        text-align: center;
+    }
+   }
+
+
+  }
