@@ -1,0 +1,19 @@
+#portfolio{
+    background-color: $color-fondo-portfolio;
+    gap:2*$tam-base;
+    padding:2*$tam-base;
+    h3{
+        text-align: center;
+        font-size:2*$tam-base;
+        padding: 1em;
+    }
+    
+        display: flex;
+        flex-direction: row;
+        padding: 1em;
+        padding-top: 0em;
+      img{
+        width:33%;
+        padding: 1em;
+      }
+    }

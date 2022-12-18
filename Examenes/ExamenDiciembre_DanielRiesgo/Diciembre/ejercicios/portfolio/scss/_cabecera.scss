@@ -1,0 +1,40 @@
+
+#cabecera{
+display: flex;
+justify-content: space-evenly;
+
+
+    background-color:$color-fondo1;
+    .logo{
+        font-size:2*$tam-base;
+        color:$color-titulo;
+        padding-top: 0.8em;
+        padding-left: 2em;
+        text-align: center;
+    }
+
+    nav{
+      
+        #menu-responsive li:not(:first-child){
+            display:none;
+        }
+
+
+
+        ul{
+            display: flex;
+            padding: 1em;
+            li{
+                padding: 0.8em;
+                a{
+                color:$color-letra1;
+                font-size:1.5*$tam-base;
+                &:hover{
+                    color:$color-botones;
+                    transition: color 1s;
+                }
+                } 
+            }
+        }
+    }
+} 
