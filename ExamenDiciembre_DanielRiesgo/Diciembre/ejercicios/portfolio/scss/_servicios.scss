@@ -1,0 +1,31 @@
+#servicios{
+    padding:2*$tam-base;
+    
+display: flex;
+flex-direction: row;
+
+    article{
+        display: flex;
+        flex-direction: row;
+        i{
+            font-size:2*$tam-base;
+            color:$color-botones;
+            padding-top: 1.5em;
+        }
+        h4{
+            color:$color-botones;
+            text-align: center;
+            padding-bottom: 1em;
+        }
+        p{
+            color:$color-titulo;
+            text-align: left;
+            padding-right: 4em;
+        }
+    }
+}
+
+
+
+
+
