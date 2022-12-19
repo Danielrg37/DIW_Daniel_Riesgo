@@ -13,13 +13,13 @@
     <form action="#" class="m-2">
         <h1 class="text-center">Introduce tus datos</h1>
         <div class="row m-3">
-        <div class="col-md-5 col-sm-12">
+        <div class="col-md-6 col-sm-12 mb-2 col-xs-12">
             <label for="nombre">Nombre</label>
             <br>
             <input type="text" class="col-12" placeholder="Introduce tu nombre">
         </div>
 
-        <div class="col-md-6 col-sm-12">
+        <div class="col-md-6 col-sm-12 col-xs-12">
             <label for="correo">Apellidos</label>
             <br>
             <input type="email" class="col-12" placeholder="Introduce tus apellidos">
@@ -27,40 +27,41 @@
     </div>
 
     <div class="row m-3">
-        <div class="col-md-6 col-sm-12">
+        <div class="col-md-6 col-sm-12 col-xs-12 mb-2">
             <label for="correo">Correo Electronico</label>
             <br>
-            <input type="email" class="col-12" placeholder="example@correo.com">
+            <input type="email" class="col-12" placeholder="example@gmail.com">
         </div>
 
-        <div class="col-md-6 col-sm-12 mb-3">
+        <div class="col-md-6 col-sm-12 col-xs-12 mb-3">
             <label for="correo">Fotografia de perfil</label>
             <br>
           <input type="file" class="col-12">
         </div>
 </div>
 <div class="row m-3">
-        <div class="col-md-12 col-sm-12">
-    <textarea class="textarea" rows="3"></textarea>
+        <div class="col-md-12 col-sm-12 col-xs-12">
+    <textarea class="textarea col-md-12 col-sm-12 col-12" rows="3">¿Qué nos quieres contar?</textarea>
         </div>
     </div>
 
-<div class="row m-3">
-        <div class="col-md-6 col-sm-6">
+<div class="row m-4">
+        <div class="col-md-9 col-sm-6 col-xs-12">
             <label for="género">Género</label>
                 <br>
-                <input type="radio" id="masculino">Masculino</input>
+                <input type="radio" id="masculino"> Masculino</input>
                 <br>
-                <input type="radio" id="femenino">Femenino</input>
+                <input type="radio" id="femenino"> Femenino</input>
                 <br>
-                <input type="radio" id="nobinario">No binario</input>
+                <input type="radio" id="nobinario"> No binario</input>
                 <br>
-                <input type="radio" id="nodecir">Prefiero no decirlo</input>
+                <input type="radio" id="nodecir"> Prefiero no decirlo</input>
                 <br>
         </div>
-        <div class="col-md-6 col-sm-6">
+        <div class="col-md-3 col-sm-6 col-xs-12">
             <label for="provincia">Provincia</label>
-            <select name="escogerprovincia" id="escogerprovincia">
+            <br>
+            <select class="form-select" name="escogerprovincia" id="escogerprovincia">
                 <option value="Asturias">Asturias</option>
                 <option value="Cantabria">Cantabria</option>
                 <option value="Coruña">La Coruña</option>
@@ -71,12 +72,14 @@
 
 
 <div class="row justify-content-center">
-        <div class="col-md-4 center col-sm-12">
-            <label for="aviso"><input type="checkbox" name="Terminos" id="Terminos" class="col-12">Acepto los terminos y condiciones</label>
+        <div class="col-md-3 col-sm-7 col-7">
+            <label class="checkbox-inline center col-md-12 col-sm-12 col-12 mb-1">
+                <input type="checkbox" value="términos"> Acepto términos y condiciones </a>
+            </label>
         </div>
 <div class="row justify-content-center">
-        <div class="col-md-4 center col-sm-12">
-            <input type="submit" class="bg-primary col-md-12 center text-white" id="submit"></input>
+        <div class="col-md-4 center col-sm-8 col-12 mb-1">
+            <input type="submit" class="bg-success col-md-12 col-sm-12 col-12 center text-white" id="submit"></input>
         </div>
 </div>
   <!-- Bootstrap JavaScript Libraries -->
