@@ -9,15 +9,15 @@ function cargaPagina() {
     document.getElementById("boton").addEventListener("click", añadirJugador);
 }
 
-// Controlador de evento de botón de guardar
+
 function añadirJugador() {
     const formulario = document.getElementById("form_jugador");
     const alertaExito = document.getElementById("alertaExito");
 
-    // Marco el formulario como validado
+
     formulario.classList.add("was-validated");
 
-    // Si el formulario no tiene errores..
+
     if (formulario.checkValidity()) {
         let nombre = document.getElementById("nombre").value;
         let apellido = document.getElementById("apellido").value;
