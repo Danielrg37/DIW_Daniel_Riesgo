@@ -1,16 +1,36 @@
-// Comprobamos si existe en localStorage el elemento con clave "perro"
+
 if(localStorage.getItem("jugador")){
-  // Si existe, recuperamos sus datos, convertimos el JSON  y mostramos el objeto por consola
+ 
   let jugador=JSON.parse(localStorage.getItem("jugador"));
   console.log(jugador);
 }
 else{
-  // Si no existe, creamos un nuevo objeto de tipo perro y lo guardamos en localStorage convirtiéndolo a JSON
+ 
   console.log("No hay jugador");
-  let jugadores=`{"jugadores":[ {"nombre":"Sachin", "apellidos":"Tendulkar", "edad": 23, "posicion": "bateador", "equipo" : "chinchonchin", "foto": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fas.com%2Fmasdeporte%2F2017%2F03%2F10%2Fpolideportivo%2F1489170861_193146.html&psig=AOvVaw3qfGEdxvYvQF9yw5niv1Bx&ust=1673525419669000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCLjJsJW-v_wCFQAAAAAdAAAAABAP"},
-                  {"nombre":"Brian", "apellidos":"Lara", "edad": 67, "posicion": "lanzador", "equipo" : "Oviedo DFC", "foto": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fas.com%2Fmasdeporte%2F2017%2F03%2F10%2Fpolideportivo%2F1489170861_193146.html&psig=AOvVaw3qfGEdxvYvQF9yw5niv1Bx&ust=1673525419669000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCLjJsJW-v_wCFQAAAAAdAAAAABAP"},
-                  {"nombre":"Ricky", "apellidos":"Ponting", "edad": 22, "posicion": "wicket keeper", "equipo" : "Paez GPT", "foto": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fas.com%2Fmasdeporte%2F2017%2F03%2F10%2Fpolideportivo%2F1489170861_193146.html&psig=AOvVaw3qfGEdxvYvQF9yw5niv1Bx&ust=1673525419669000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCLjJsJW-v_wCFQAAAAAdAAAAABAP"} ]}`;
+  let jugadores = [{
+    nombre: "Sachin",
+    apellidos: "Tendulkar",
+    edad: 48,
+    posicion: "bateador",
+    equipo: "Yorkshire Country",
+    foto: "https://th.bing.com/th/id/R.f1b24b4fba6095275c1b554b9e7c13ce?rik=pWbciH%2fMgk3Fgg&riu=http%3a%2f%2f4.bp.blogspot.com%2f-Eqc0GZl4YuM%2fTv3ZckDA1pI%2fAAAAAAAAD94%2fO-mr11GshWY%2fs1600%2fSachin%2bTendulkar.jpg&ehk=6dFmbTNCkoZupsY6D1hJKTTi6v61ytTG2HxKfzMEmvg%3d&risl=&pid=ImgRaw&r=0"
+  }, {
+    nombre: "Brian",
+    apellidos: "Lara",
+    edad: 53,
+    posicion: "bateador",
+    equipo: "Southern Rocks",
+    foto: "https://th.bing.com/th/id/R.04732813a290083bfc450a1578d2ffab?rik=XpaUAyTiPIODQw&riu=http%3a%2f%2fgaurang.org%2flara1.jpg&ehk=ByED8khv4GPsaoFn5U132C8vLm8t%2f4j6j8AuXQXE2ok%3d&risl=&pid=ImgRaw&r=0"
+  }, {
+    nombre: "Ricky",
+    apellidos: "Ponting",
+    edad: 22,
+    posicion: "wicket keeper",
+    equipo: "Paez GPT",
+    foto: "https://th.bing.com/th/id/OIP.d9Bx1dD_rhhfjSX6khQ4ugAAAA?pid=ImgDet&rs=1"
+  }
+  ]
 
-  // La proxima vez que recarguemos la página la clave existirá
+ 
   localStorage.setItem("jugador",JSON.stringify(jugadores));
 }
