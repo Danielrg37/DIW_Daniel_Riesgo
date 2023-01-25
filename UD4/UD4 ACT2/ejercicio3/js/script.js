@@ -4,16 +4,16 @@ window.addEventListener("load",(e)=>{
   
   
   function cargaPagina(){
-    document.getElementById("btnNuevoTodo").addEventListener("click",(e)=>{
-      nuevaNota(e);
+    document.getElementById("boton").addEventListener("click",(e)=>{
+      nuevoUsuario(e);
   });
   }
   
-  function nuevaNota(e){
+  function nuevoUsuario(e){
     e.preventDefault();
   
     let nombre = document.getElementById("nombre").value;
-    let apellidos = document.getElementById("apellidos").value;
+    let apellidos = document.getElementById("apellido").value;
     let email = document.getElementById("email").value;
     let edad = document.getElementById("edad").value;
     let url = document.getElementById("url").value;
@@ -26,7 +26,7 @@ window.addEventListener("load",(e)=>{
      
         var XHR=new XMLHttpRequest();
         XHR.onreadystatechange=CambiaEstado;
-        XHR.open("POST",'https://dummyjson.com/posts');
+        XHR.open("POST",'https://dummyjson.com/users');
         XHR.setRequestHeader("Content-type", "application/json; charset=UTF-8");
         XHR.send(JSON.stringify(usuario));
       }
@@ -51,14 +51,13 @@ window.addEventListener("load",(e)=>{
         let todo=JSON.parse(this.responseText);
         var capa=document.createElement("div");
       
-        let completado=todo.completed?"Sí":"No";
-  
         let html=`<h6>Se ha dado de alta la tarea</h6>
             <div class="card col-3 p-3 m-3">
-            <h5>Id de nota: ${todo.id}</h5>
-            <h6>Id de usuario: ${todo.userId}</h6>
-            <p>Título: ${todo.title}</p>
-            <p>Completada?: ${completado}</p>
+            <h5>Nombre: ${todo.nombre}</h5>
+            <h6>Apellidos: ${todo.apellidos}</h6>
+            <p>Email: ${todo.email}</p>
+            <p>Edad: ${todo.edad}</p>
+            <p>Url: ${todo.url}</p>
           </div>`;
   
     
